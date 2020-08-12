@@ -1,0 +1,97 @@
+.brandImg{width: 25%;}
+
+.navBtn{
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 80%;
+}
+
+#icones{
+    position: relative;
+    left: -15px
+}
+
+    #icones img{float: left;}
+
+    #icones h3{font-size: 1.2rem;}
+
+
+nav a{font-weight: 600;}
+
+#frase-motivacional{
+    margin: 80px auto 0px auto;
+}
+
+    #depoimentos img{height: 250px;}
+
+    .carousel-control-prev:hover, .carousel-control-next:hover{background-color: rgba(45, 251, 255, 0.55);}
+
+    #depoimentos .carousel-control-prev:hover, #depoimentos .carousel-control-next:hover{margin-top: 25px;}
+
+#blog img{max-width: 250px;}
+
+#rodape a{color: white;}
+
+    #rodape a:hover{color: rgb(84, 136, 196);}
+
+#redes-sociais img{
+    width: 30px;
+    transition: width 0.15s;
+}
+
+    #redes-sociais img:hover{width: 35px;}
+
+#aprovamais{background-color: black;}
+
+/*-----MEDIA QUERY-----*/
+@media (max-width: 323px){
+    .content{margin-top: 122px;}
+
+    #icones img{width: 25%;}
+
+  
+}
+
+@media (min-width: 324px) and (max-width: 767px) {
+    .navBtn{
+        margin-top: 0.2rem; 
+        font-size: 60%;
+    }
+
+    .content{margin-top: 72px;}
+
+        #icones img{width: 80px;}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navBtn{
+        margin-top: 0.2rem;
+        font-size: 60%;
+    }
+    
+    .content{margin-top: 78px;}
+
+    #icones{margin-top: -30px;}
+
+        #icones img{width: 100px;}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navBtn{font-size: 80%;}
+
+    .content{margin-top: 96px;}
+
+    #icones{margin-top: -38px;}
+}
+
+@media (min-width: 1200px) { 
+    nav a{margin-left: 10px;}
+
+    .content{margin-top: 109px;}
+
+    #icones{margin-top: -40px;}
+
+  
+}
